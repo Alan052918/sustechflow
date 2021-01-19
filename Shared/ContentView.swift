@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: Tab = .myFlows
+
+    enum Tab {
+        case myFlows
+        case calendar
+    }
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: $selection) {
+            MyFlowsView()
+                .tabItem {
+                    Label("My Flows", systemImage: "rectangle.grid.2x2.fill")
+                }
+                .tag(Tab.myFlows)
+            CalendarView()
+                .tabItem {
+                    Label("Calendar", systemImage: "calendar")
+                }
+                .tag(Tab.calendar)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .preferredColorScheme(.light)
+            ContentView()
+                .preferredColorScheme(.dark)
+        }
     }
 }

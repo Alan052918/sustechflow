@@ -15,6 +15,28 @@
 		F992B71E25B6C67A00A37AA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B6F325B6C67500A37AA7 /* ContentView.swift */; };
 		F992B71F25B6C67A00A37AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F992B6F425B6C67A00A37AA7 /* Assets.xcassets */; };
 		F992B72025B6C67A00A37AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F992B6F425B6C67A00A37AA7 /* Assets.xcassets */; };
+		F992B74E25B6D5E100A37AA7 /* FlowGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B74D25B6D5E100A37AA7 /* FlowGroup.swift */; };
+		F992B74F25B6D5E100A37AA7 /* FlowGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B74D25B6D5E100A37AA7 /* FlowGroup.swift */; };
+		F992B76C25B6D8FB00A37AA7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B76B25B6D8FB00A37AA7 /* ModelData.swift */; };
+		F992B76D25B6D8FB00A37AA7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B76B25B6D8FB00A37AA7 /* ModelData.swift */; };
+		F992B77C25B6DF0600A37AA7 /* flowgroups.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B77B25B6DF0600A37AA7 /* flowgroups.json */; };
+		F992B77D25B6DF0600A37AA7 /* flowgroups.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B77B25B6DF0600A37AA7 /* flowgroups.json */; };
+		F992B79A25B6E3D000A37AA7 /* FlowGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B79925B6E3D000A37AA7 /* FlowGroupView.swift */; };
+		F992B79B25B6E3D000A37AA7 /* FlowGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B79925B6E3D000A37AA7 /* FlowGroupView.swift */; };
+		F992B7A125B727B200A37AA7 /* MyFlowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7A025B727B200A37AA7 /* MyFlowsView.swift */; };
+		F992B7A225B727B200A37AA7 /* MyFlowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7A025B727B200A37AA7 /* MyFlowsView.swift */; };
+		F992B7A825B727BB00A37AA7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7A725B727BB00A37AA7 /* CalendarView.swift */; };
+		F992B7A925B727BB00A37AA7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7A725B727BB00A37AA7 /* CalendarView.swift */; };
+		F992B7AF25B733CC00A37AA7 /* FlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7AE25B733CC00A37AA7 /* FlowItem.swift */; };
+		F992B7B025B733CC00A37AA7 /* FlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7AE25B733CC00A37AA7 /* FlowItem.swift */; };
+		F992B7B625B7357F00A37AA7 /* flowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B7B525B7357F00A37AA7 /* flowitems.json */; };
+		F992B7B725B7357F00A37AA7 /* flowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B7B525B7357F00A37AA7 /* flowitems.json */; };
+		F992B7BD25B73F8400A37AA7 /* FlowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */; };
+		F992B7BE25B73F8400A37AA7 /* FlowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */; };
+		F992B7C425B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */; };
+		F992B7C525B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */; };
+		F992B7CB25B7416A00A37AA7 /* favoriteflowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */; };
+		F992B7CC25B7416A00A37AA7 /* favoriteflowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +71,17 @@
 		F992B71425B6C67A00A37AA7 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F992B71825B6C67A00A37AA7 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F992B71A25B6C67A00A37AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F992B74D25B6D5E100A37AA7 /* FlowGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowGroup.swift; sourceTree = "<group>"; };
+		F992B76B25B6D8FB00A37AA7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F992B77B25B6DF0600A37AA7 /* flowgroups.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowgroups.json; sourceTree = "<group>"; };
+		F992B79925B6E3D000A37AA7 /* FlowGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowGroupView.swift; sourceTree = "<group>"; };
+		F992B7A025B727B200A37AA7 /* MyFlowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlowsView.swift; sourceTree = "<group>"; };
+		F992B7A725B727BB00A37AA7 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F992B7AE25B733CC00A37AA7 /* FlowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowItem.swift; sourceTree = "<group>"; };
+		F992B7B525B7357F00A37AA7 /* flowitems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowitems.json; sourceTree = "<group>"; };
+		F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowItemView.swift; sourceTree = "<group>"; };
+		F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFlowItem.swift; sourceTree = "<group>"; };
+		F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favoriteflowitems.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				F992B6F225B6C67500A37AA7 /* SUSTech_FlowApp.swift */,
-				F992B6F325B6C67500A37AA7 /* ContentView.swift */,
+				F992B76625B6D8C000A37AA7 /* Views */,
+				F992B77525B6D97300A37AA7 /* Model */,
+				F992B77625B6DB9D00A37AA7 /* Resources */,
 				F992B6F425B6C67A00A37AA7 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -149,6 +184,39 @@
 				F992B71A25B6C67A00A37AA7 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		F992B76625B6D8C000A37AA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F992B6F325B6C67500A37AA7 /* ContentView.swift */,
+				F992B7A025B727B200A37AA7 /* MyFlowsView.swift */,
+				F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */,
+				F992B7A725B727BB00A37AA7 /* CalendarView.swift */,
+				F992B79925B6E3D000A37AA7 /* FlowGroupView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F992B77525B6D97300A37AA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F992B74D25B6D5E100A37AA7 /* FlowGroup.swift */,
+				F992B76B25B6D8FB00A37AA7 /* ModelData.swift */,
+				F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */,
+				F992B7AE25B733CC00A37AA7 /* FlowItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F992B77625B6DB9D00A37AA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */,
+				F992B7B525B7357F00A37AA7 /* flowitems.json */,
+				F992B77B25B6DF0600A37AA7 /* flowgroups.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +343,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F992B7CB25B7416A00A37AA7 /* favoriteflowitems.json in Resources */,
 				F992B71F25B6C67A00A37AA7 /* Assets.xcassets in Resources */,
+				F992B77C25B6DF0600A37AA7 /* flowgroups.json in Resources */,
+				F992B7B625B7357F00A37AA7 /* flowitems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +354,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F992B7CC25B7416A00A37AA7 /* favoriteflowitems.json in Resources */,
 				F992B72025B6C67A00A37AA7 /* Assets.xcassets in Resources */,
+				F992B77D25B6DF0600A37AA7 /* flowgroups.json in Resources */,
+				F992B7B725B7357F00A37AA7 /* flowitems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +382,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F992B7AF25B733CC00A37AA7 /* FlowItem.swift in Sources */,
+				F992B7A125B727B200A37AA7 /* MyFlowsView.swift in Sources */,
+				F992B7A825B727BB00A37AA7 /* CalendarView.swift in Sources */,
+				F992B79A25B6E3D000A37AA7 /* FlowGroupView.swift in Sources */,
 				F992B71D25B6C67A00A37AA7 /* ContentView.swift in Sources */,
 				F992B71B25B6C67A00A37AA7 /* SUSTech_FlowApp.swift in Sources */,
+				F992B7C425B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */,
+				F992B74E25B6D5E100A37AA7 /* FlowGroup.swift in Sources */,
+				F992B76C25B6D8FB00A37AA7 /* ModelData.swift in Sources */,
+				F992B7BD25B73F8400A37AA7 /* FlowItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +399,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F992B7B025B733CC00A37AA7 /* FlowItem.swift in Sources */,
+				F992B7A225B727B200A37AA7 /* MyFlowsView.swift in Sources */,
+				F992B7A925B727BB00A37AA7 /* CalendarView.swift in Sources */,
+				F992B79B25B6E3D000A37AA7 /* FlowGroupView.swift in Sources */,
 				F992B71E25B6C67A00A37AA7 /* ContentView.swift in Sources */,
 				F992B71C25B6C67A00A37AA7 /* SUSTech_FlowApp.swift in Sources */,
+				F992B7C525B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */,
+				F992B74F25B6D5E100A37AA7 /* FlowGroup.swift in Sources */,
+				F992B76D25B6D8FB00A37AA7 /* ModelData.swift in Sources */,
+				F992B7BE25B73F8400A37AA7 /* FlowItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

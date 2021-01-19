@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1001,
+        "name": "All Flows",
+        "flowCount": 0,
+        "description": "All flows are listed here",
+        "symbolName": "rectangle.grid.2x2"
+    },
+    {
+        "id": 1002,
+        "name": "Coursework Flows",
+        "flowCount": 0,
+        "description": "All flows related to course work are listed here",
+        "symbolName": "graduationcap"
+    },
+    {
+        "id": 1003,
+        "name": "Lifestyle Flows",
+        "flowCount": 0,
+        "description": "All flows related to lifestyle are listed here",
+        "symbolName": "bus"
+    }
+]
