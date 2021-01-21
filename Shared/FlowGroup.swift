@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 struct FlowGroup: Identifiable, Codable, Hashable {
-    var id = UUID()
+    let id = UUID()
     var name: String
     var description: String
     var flowCount: Int

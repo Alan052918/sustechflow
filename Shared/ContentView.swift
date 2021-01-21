@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selection: Tab = .myFlows
+    @State private var selection: Tab = .calendar
 
     enum Tab {
         case myFlows, calendar, wiki

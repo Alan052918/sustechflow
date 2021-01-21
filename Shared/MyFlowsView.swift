@@ -43,7 +43,7 @@ struct MyFlowsView: View {
         NavigationView {
             List {
                 Section(header: Text("groups")) {
-                    ForEach(flowGroups) { flowGroup in
+                    ForEach(allFlowGroups) { flowGroup in
                         NavigationLink(
                             destination: FlowGroupView(flowGroup: flowGroup),
                             label: {

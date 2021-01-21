@@ -8,13 +8,13 @@
     {
         "name": "Coursework Flows",
         "description": "All flows related to course work are listed here",
-        "flowCount": 0,
+        "flowCount": 2,
         "symbolName": "graduationcap"
     },
     {
         "name": "Lifestyle Flows",
         "description": "All flows related to lifestyle are listed here",
-        "flowCount": 0,
+        "flowCount": 3,
         "symbolName": "star"
     }
 ]

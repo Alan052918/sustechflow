@@ -15,27 +15,23 @@ struct FlowItemCard: View {
             HStack {
                 flowItem.symbolImage
                 Spacer()
-                Image(systemName: "gearshape.2")
+//                Image(systemName: "gearshape.2")
             }
             .padding(.all, 7.0)
             Text(flowItem.name)
                 .bold()
                 .frame(width: 150, height: 50, alignment: .leading)
-//                .padding(.all, 7.0)
         }
         .background(RoundedRectangle(cornerRadius: 17.0, style: .continuous)
-                        .foregroundColor(.gray))
-//        .background(RadialGradient(
-//                        gradient: Gradient(colors: [Color.gray, Color.black]),
-//                        center: .center,
-//                        startRadius: 5,
-//                        endRadius: 600))
+        .foregroundColor(.gray))
         .foregroundColor(.white)
         .cornerRadius(10.0)
     }
 }
 
 struct FlowItemCardDeck: View {
+    var flowItems: [FlowItem]
+
     let columns = [GridItem(.adaptive(minimum: 150))]
 
     var body: some View {
@@ -55,11 +51,11 @@ struct FlowItemCardDeck: View {
 struct FlowGroupView: View {
     var flowGroup: FlowGroup
 
-    var gridLayout = GridItem(.adaptive(minimum: 20, maximum: 50))
-
     var body: some View {
         ScrollView {
-            FlowItemCardDeck()
+            FlowItemCardDeck(flowItems: allFlowItems.filter { flowItem in
+                flowItem.inGroup(flowGroup: flowGroup)
+            })
         }
         .navigationTitle(flowGroup.name)
     }
@@ -67,6 +63,6 @@ struct FlowGroupView: View {
 
 struct FlowGroupView_Previews: PreviewProvider {
     static var previews: some View {
-        FlowGroupView(flowGroup: flowGroups[0])
+        FlowGroupView(flowGroup: allFlowGroups[0])
     }
 }

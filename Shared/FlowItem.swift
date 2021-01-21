@@ -13,9 +13,10 @@ enum FlowItemState: String, Codable {
 }
 
 struct FlowItem: Identifiable, Codable, Hashable {
-    var id = UUID()
+    let id = UUID()
     var name: String
     var description: String
+    var groupName: String
     var isFavorite: Bool
 
     var state: FlowItemState
@@ -26,6 +27,13 @@ struct FlowItem: Identifiable, Codable, Hashable {
     }
 
     private enum CodingKeys: String, CodingKey {
-        case name, description, isFavorite, state, symbolName
+        case name, description, groupName, isFavorite, state, symbolName
+    }
+
+    func inGroup(flowGroup: FlowGroup) -> Bool {
+        if flowGroup.name == "All Flows" {
+            return true
+        }
+        return self.groupName == flowGroup.name
     }
 }

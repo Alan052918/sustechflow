@@ -7,9 +7,9 @@
 
 import Foundation
 
-var flowGroups: [FlowGroup] = load("flowgroups.json")
-var flowItems: [FlowItem] = load("flowitems.json")
-var favoriteflowitems: [FlowItem] = flowItems.filter { flowItem in
+var allFlowGroups: [FlowGroup] = load("flowgroups.json")
+var allFlowItems: [FlowItem] = load("flowitems.json")
+var favoriteFlowItems: [FlowItem] = allFlowItems.filter { flowItem in
     flowItem.isFavorite == true
 }
 

@@ -2,6 +2,7 @@
     {
         "name": "Grades and GPA",
         "description": "Course grades and GPA records",
+        "groupName": "Coursework Flows",
         "isFavorite": true,
         "state": "active",
         "symbolName": "printer"
@@ -9,6 +10,7 @@
     {
         "name": "Deadlines",
         "description": "Course assignment deadlines",
+        "groupName": "Coursework Flows",
         "isFavorite": true,
         "state": "active",
         "symbolName": "exclamationmark.3"
@@ -16,6 +18,7 @@
     {
         "name": "Administrative information",
         "description": "Administrative announcements",
+        "groupName": "Lifestyle Flows",
         "isFavorite": true,
         "state": "active",
         "symbolName": "bell"
@@ -23,6 +26,7 @@
     {
         "name": "Lectures and shows",
         "description": "Public lectures and shows",
+        "groupName": "Lifestyle Flows",
         "isFavorite": true,
         "state": "active",
         "symbolName": "star.circle"
@@ -30,6 +34,7 @@
     {
         "name": "Bus schedule",
         "description": "Campus bus schedules",
+        "groupName": "Lifestyle Flows",
         "isFavorite": true,
         "state": "active",
         "symbolName": "bus"
