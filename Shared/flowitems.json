@@ -2,41 +2,41 @@
     {
         "name": "Grades and GPA",
         "description": "Course grades and GPA records",
+        "colorName": "gray",
         "groupName": "Coursework Flows",
         "isFavorite": true,
-        "state": "active",
         "symbolName": "printer"
     },
     {
         "name": "Deadlines",
         "description": "Course assignment deadlines",
+        "colorName": "red",
         "groupName": "Coursework Flows",
         "isFavorite": true,
-        "state": "active",
         "symbolName": "exclamationmark.3"
     },
     {
         "name": "Administrative information",
         "description": "Administrative announcements",
+        "colorName": "orange",
         "groupName": "Lifestyle Flows",
         "isFavorite": true,
-        "state": "active",
         "symbolName": "bell"
     },
     {
         "name": "Lectures and shows",
         "description": "Public lectures and shows",
+        "colorName": "purple",
         "groupName": "Lifestyle Flows",
         "isFavorite": true,
-        "state": "active",
         "symbolName": "star.circle"
     },
     {
         "name": "Bus schedule",
         "description": "Campus bus schedules",
+        "colorName": "blue",
         "groupName": "Lifestyle Flows",
         "isFavorite": true,
-        "state": "active",
         "symbolName": "bus"
     }
 ]

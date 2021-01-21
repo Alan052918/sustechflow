@@ -14,18 +14,24 @@ struct FlowItemCard: View {
         VStack {
             HStack {
                 flowItem.symbolImage
+                    .font(.title)
                 Spacer()
-//                Image(systemName: "gearshape.2")
+                Image(systemName: "ellipsis.circle.fill")
+                    .font(.title)
             }
-            .padding(.all, 7.0)
-            Text(flowItem.name)
-                .bold()
-                .frame(width: 150, height: 50, alignment: .leading)
+            .padding(1.0)
+            HStack {
+                Text(flowItem.name)
+                    .bold()
+                    .frame(width: 130, height: 45, alignment: .bottomLeading)
+                Spacer()
+            }
+            .padding(1.0)
         }
-        .background(RoundedRectangle(cornerRadius: 17.0, style: .continuous)
-        .foregroundColor(.gray))
+        .padding(10.0)
         .foregroundColor(.white)
-        .cornerRadius(10.0)
+        .background(RoundedRectangle(cornerRadius: 17.0, style: .continuous)
+                        .foregroundColor(flowItem.getColor()))
     }
 }
 
@@ -41,6 +47,7 @@ struct FlowItemCardDeck: View {
                     destination: FlowItemView(flowItem: flowItem),
                     label: {
                         FlowItemCard(flowItem: flowItem)
+                            .padding(2.0)
                     })
             }
         })

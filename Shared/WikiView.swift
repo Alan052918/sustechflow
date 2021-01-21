@@ -10,7 +10,7 @@ import SwiftUI
 struct WikiView: View {
     var body: some View {
         NavigationView {
-            Text("Hello, World!")
+            Text("Entry to SUSTech Wiki")
                 .navigationTitle("SUSTech Wiki")
         }
     }

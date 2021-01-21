@@ -188,11 +188,11 @@
 		F992B76625B6D8C000A37AA7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F992B6F325B6C67500A37AA7 /* ContentView.swift */,
-				F992B7A025B727B200A37AA7 /* MyFlowsView.swift */,
-				F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */,
 				F992B7A725B727BB00A37AA7 /* CalendarView.swift */,
+				F992B6F325B6C67500A37AA7 /* ContentView.swift */,
+				F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */,
 				F992B79925B6E3D000A37AA7 /* FlowGroupView.swift */,
+				F992B7A025B727B200A37AA7 /* MyFlowsView.swift */,
 				F96E008C25B928E100B22330 /* WikiView.swift */,
 			);
 			name = Views;
