@@ -13,26 +13,32 @@ struct FlowGroupRow: View {
     var body: some View {
         HStack {
             flowGroup.symbolImage
-                .resizable()
-                .frame(width: 22, height: 20)
-                .foregroundColor(.blue)
+                .frame(width: 20, height: 20, alignment: .center)
+                .foregroundColor(.accentColor)
             Text(flowGroup.name)
             Spacer()
             Text("\(flowGroup.flowCount)")
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
         }
     }
 }
 
-struct FavoriteFlowItemView: View {
+struct FavoriteFlowItemCard: View {
+    var favoriteFlowItem: FlowItem
+
     var body: some View {
-        Text("My favorite flow")
+        VStack {
+            HStack {
+                favoriteFlowItem.symbolImage
+                    .frame(width: 20, height: 20, alignment: .center)
+                    .foregroundColor(.accentColor)
+                Text(favoriteFlowItem.name)
+            }
+        }
     }
 }
 
 struct MyFlowsView: View {
-    @Environment(\.editMode) var editMode
-
     var body: some View {
         NavigationView {
             List {
@@ -46,13 +52,6 @@ struct MyFlowsView: View {
                     }
                 }
                 Section(header: Text("favorites")) {
-                    ForEach(favoriteflowitems) {favoriteflowItem in
-                        NavigationLink(
-                            destination: FlowItemView(),
-                            label: {
-                                FavoriteFlowItemView()
-                            })
-                    }
                 }
             }
             .listStyle(InsetGroupedListStyle())
@@ -66,6 +65,10 @@ struct MyFlowsView: View {
 
 struct MyFlowsView_Previews: PreviewProvider {
     static var previews: some View {
-        MyFlowsView()
+        Group {
+            MyFlowsView()
+            MyFlowsView()
+                .previewDevice("iPhone SE (2nd generation)")
+        }
     }
 }

@@ -11,8 +11,7 @@ struct ContentView: View {
     @State private var selection: Tab = .myFlows
 
     enum Tab {
-        case myFlows
-        case calendar
+        case myFlows, calendar, wiki
     }
 
     var body: some View {
@@ -27,6 +26,11 @@ struct ContentView: View {
                     Label("Calendar", systemImage: "calendar")
                 }
                 .tag(Tab.calendar)
+            WikiView()
+                .tabItem {
+                    Label("Wiki", systemImage: "globe")
+                }
+                .tag(Tab.wiki)
         }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F96E008D25B928E100B22330 /* WikiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E008C25B928E100B22330 /* WikiView.swift */; };
+		F96E008E25B928E100B22330 /* WikiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E008C25B928E100B22330 /* WikiView.swift */; };
 		F992B70E25B6C67A00A37AA7 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B70D25B6C67A00A37AA7 /* Tests_iOS.swift */; };
 		F992B71925B6C67A00A37AA7 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B71825B6C67A00A37AA7 /* Tests_macOS.swift */; };
 		F992B71B25B6C67A00A37AA7 /* SUSTech_FlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B6F225B6C67500A37AA7 /* SUSTech_FlowApp.swift */; };
@@ -33,10 +35,6 @@
 		F992B7B725B7357F00A37AA7 /* flowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B7B525B7357F00A37AA7 /* flowitems.json */; };
 		F992B7BD25B73F8400A37AA7 /* FlowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */; };
 		F992B7BE25B73F8400A37AA7 /* FlowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */; };
-		F992B7C425B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */; };
-		F992B7C525B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */; };
-		F992B7CB25B7416A00A37AA7 /* favoriteflowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */; };
-		F992B7CC25B7416A00A37AA7 /* favoriteflowitems.json in Resources */ = {isa = PBXBuildFile; fileRef = F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F96E008C25B928E100B22330 /* WikiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiView.swift; sourceTree = "<group>"; };
 		F992B6F225B6C67500A37AA7 /* SUSTech_FlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUSTech_FlowApp.swift; sourceTree = "<group>"; };
 		F992B6F325B6C67500A37AA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F992B6F425B6C67A00A37AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,8 +79,7 @@
 		F992B7AE25B733CC00A37AA7 /* FlowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowItem.swift; sourceTree = "<group>"; };
 		F992B7B525B7357F00A37AA7 /* flowitems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowitems.json; sourceTree = "<group>"; };
 		F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowItemView.swift; sourceTree = "<group>"; };
-		F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteFlowItem.swift; sourceTree = "<group>"; };
-		F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favoriteflowitems.json; sourceTree = "<group>"; };
+		F9AC343A25B7457C00C30A99 /* SUSTech Flow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SUSTech Flow.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +117,7 @@
 		F992B6EC25B6C67500A37AA7 = {
 			isa = PBXGroup;
 			children = (
+				F9AC343A25B7457C00C30A99 /* SUSTech Flow.entitlements */,
 				F992B6F125B6C67500A37AA7 /* Shared */,
 				F992B6FB25B6C67A00A37AA7 /* iOS */,
 				F992B70225B6C67A00A37AA7 /* macOS */,
@@ -194,6 +193,7 @@
 				F992B7BC25B73F8400A37AA7 /* FlowItemView.swift */,
 				F992B7A725B727BB00A37AA7 /* CalendarView.swift */,
 				F992B79925B6E3D000A37AA7 /* FlowGroupView.swift */,
+				F96E008C25B928E100B22330 /* WikiView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -203,7 +203,6 @@
 			children = (
 				F992B74D25B6D5E100A37AA7 /* FlowGroup.swift */,
 				F992B76B25B6D8FB00A37AA7 /* ModelData.swift */,
-				F992B7C325B7412C00A37AA7 /* FavoriteFlowItem.swift */,
 				F992B7AE25B733CC00A37AA7 /* FlowItem.swift */,
 			);
 			name = Model;
@@ -212,7 +211,6 @@
 		F992B77625B6DB9D00A37AA7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F992B7CA25B7416A00A37AA7 /* favoriteflowitems.json */,
 				F992B7B525B7357F00A37AA7 /* flowitems.json */,
 				F992B77B25B6DF0600A37AA7 /* flowgroups.json */,
 			);
@@ -343,7 +341,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F992B7CB25B7416A00A37AA7 /* favoriteflowitems.json in Resources */,
 				F992B71F25B6C67A00A37AA7 /* Assets.xcassets in Resources */,
 				F992B77C25B6DF0600A37AA7 /* flowgroups.json in Resources */,
 				F992B7B625B7357F00A37AA7 /* flowitems.json in Resources */,
@@ -354,7 +351,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F992B7CC25B7416A00A37AA7 /* favoriteflowitems.json in Resources */,
 				F992B72025B6C67A00A37AA7 /* Assets.xcassets in Resources */,
 				F992B77D25B6DF0600A37AA7 /* flowgroups.json in Resources */,
 				F992B7B725B7357F00A37AA7 /* flowitems.json in Resources */,
@@ -388,7 +384,7 @@
 				F992B79A25B6E3D000A37AA7 /* FlowGroupView.swift in Sources */,
 				F992B71D25B6C67A00A37AA7 /* ContentView.swift in Sources */,
 				F992B71B25B6C67A00A37AA7 /* SUSTech_FlowApp.swift in Sources */,
-				F992B7C425B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */,
+				F96E008D25B928E100B22330 /* WikiView.swift in Sources */,
 				F992B74E25B6D5E100A37AA7 /* FlowGroup.swift in Sources */,
 				F992B76C25B6D8FB00A37AA7 /* ModelData.swift in Sources */,
 				F992B7BD25B73F8400A37AA7 /* FlowItemView.swift in Sources */,
@@ -405,7 +401,7 @@
 				F992B79B25B6E3D000A37AA7 /* FlowGroupView.swift in Sources */,
 				F992B71E25B6C67A00A37AA7 /* ContentView.swift in Sources */,
 				F992B71C25B6C67A00A37AA7 /* SUSTech_FlowApp.swift in Sources */,
-				F992B7C525B7412C00A37AA7 /* FavoriteFlowItem.swift in Sources */,
+				F96E008E25B928E100B22330 /* WikiView.swift in Sources */,
 				F992B74F25B6D5E100A37AA7 /* FlowGroup.swift in Sources */,
 				F992B76D25B6D8FB00A37AA7 /* ModelData.swift in Sources */,
 				F992B7BE25B73F8400A37AA7 /* FlowItemView.swift in Sources */,
@@ -495,6 +491,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -548,6 +546,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -560,6 +560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SUSTech Flow.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA5W848Q8D;
 				ENABLE_PREVIEWS = YES;
@@ -572,6 +573,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook.ai-junda.SUSTech-Flow";
 				PRODUCT_NAME = "SUSTech Flow";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,6 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SUSTech Flow.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA5W848Q8D;
 				ENABLE_PREVIEWS = YES;
@@ -594,6 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.outlook.ai-junda.SUSTech-Flow";
 				PRODUCT_NAME = "SUSTech Flow";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

@@ -10,11 +10,8 @@ import SwiftUI
 struct CalendarView: View {
     var body: some View {
         NavigationView {
-            // event stream
-            List {
-                Text("Calendar View")
-            }
-            .navigationTitle("Calendar")
+            Text("Hello, World!")
+                .navigationTitle("Calendar")
         }
     }
 }

@@ -9,7 +9,9 @@ import Foundation
 
 var flowGroups: [FlowGroup] = load("flowgroups.json")
 var flowItems: [FlowItem] = load("flowitems.json")
-var favoriteflowitems: [FavoriteFlowItem] = load("favoriteflowitems.json")
+var favoriteflowitems: [FlowItem] = flowItems.filter { flowItem in
+    flowItem.isFavorite == true
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

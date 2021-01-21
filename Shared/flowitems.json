@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "name": "Grades and GPA",
+        "description": "Course grades and GPA records",
+        "isFavorite": true,
+        "state": "active",
+        "symbolName": "printer"
+    },
+    {
+        "name": "Deadlines",
+        "description": "Course assignment deadlines",
+        "isFavorite": true,
+        "state": "active",
+        "symbolName": "exclamationmark.3"
+    },
+    {
+        "name": "Administrative information",
+        "description": "Administrative announcements",
+        "isFavorite": true,
+        "state": "active",
+        "symbolName": "bell"
+    },
+    {
+        "name": "Lectures and shows",
+        "description": "Public lectures and shows",
+        "isFavorite": true,
+        "state": "active",
+        "symbolName": "star.circle"
+    },
+    {
+        "name": "Bus schedule",
+        "description": "Campus bus schedules",
+        "isFavorite": true,
+        "state": "active",
+        "symbolName": "bus"
+    }
+]

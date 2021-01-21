@@ -9,13 +9,17 @@ import Foundation
 import SwiftUI
 
 struct FlowGroup: Identifiable, Codable, Hashable {
-    var id: Int
+    var id = UUID()
     var name: String
-    var flowCount: Int
     var description: String
+    var flowCount: Int
 
     private var symbolName: String
     var symbolImage: Image {
         Image(systemName: symbolName)
+    }
+
+    private enum CodingKeys : String, CodingKey {
+        case name, flowCount, description, symbolName
     }
 }
